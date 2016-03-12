@@ -12,6 +12,7 @@
 		EB2B1CA31C936DB500D42D65 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB2B1CA11C936DB500D42D65 /* Main.storyboard */; };
 		EB2B1CA51C936DB500D42D65 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB2B1CA41C936DB500D42D65 /* Assets.xcassets */; };
 		EB2B1CA81C936DB500D42D65 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB2B1CA61C936DB500D42D65 /* LaunchScreen.storyboard */; };
+		EB4D84061C93967200E5024D /* Cat-clip-art-images-illustrations-photos-3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EB4D84051C93967200E5024D /* Cat-clip-art-images-illustrations-photos-3.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		EB2B1CA41C936DB500D42D65 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EB2B1CA71C936DB500D42D65 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EB2B1CA91C936DB500D42D65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB4D84051C93967200E5024D /* Cat-clip-art-images-illustrations-photos-3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Cat-clip-art-images-illustrations-photos-3.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		EB2B1C9C1C936DB500D42D65 /* Hello World */ = {
 			isa = PBXGroup;
 			children = (
+				EB4D84051C93967200E5024D /* Cat-clip-art-images-illustrations-photos-3.jpg */,
 				EB2B1C9D1C936DB500D42D65 /* AppDelegate.swift */,
 				EB2B1C9F1C936DB500D42D65 /* ViewController.swift */,
 				EB2B1CA11C936DB500D42D65 /* Main.storyboard */,
@@ -124,6 +127,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EB2B1CA81C936DB500D42D65 /* LaunchScreen.storyboard in Resources */,
+				EB4D84061C93967200E5024D /* Cat-clip-art-images-illustrations-photos-3.jpg in Resources */,
 				EB2B1CA51C936DB500D42D65 /* Assets.xcassets in Resources */,
 				EB2B1CA31C936DB500D42D65 /* Main.storyboard in Resources */,
 			);

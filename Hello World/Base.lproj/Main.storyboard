@@ -17,14 +17,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Hello Mark!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hdq-dl-YVA">
-                                <rect key="frame" x="107" y="70" width="161" height="51"/>
-                                <color key="backgroundColor" red="0.39500161698955483" green="0.97254901960784312" blue="0.098620382509367846" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" name="ChalkboardSE-Bold" family="Chalkboard SE" pointSize="28"/>
-                                <color key="textColor" red="0.41960784313725491" green="0.78431372549019607" blue="0.97254901960784312" alpha="1" colorSpace="calibratedRGB"/>
-                                <color key="highlightedColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <color key="shadowColor" red="0.24995499756097467" green="0.17716745936006154" blue="0.97254901960784312" alpha="1" colorSpace="calibratedRGB"/>
-                            </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="This is cool" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WdP-j4-b1Y">
                                 <rect key="frame" x="122" y="308" width="130" height="52"/>
                                 <color key="backgroundColor" red="0.97254901960784312" green="0.82432607518317247" blue="0.062233420832181009" alpha="1" colorSpace="calibratedRGB"/>
@@ -32,6 +24,18 @@
                                 <color key="textColor" red="0.34901960784313724" green="0.99215686274509807" blue="0.082352941176470587" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="How old are you?" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Jtd-QJ-4Mh">
+                                <rect key="frame" x="20" y="79" width="335" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="emailAddress"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aYg-u4-k8M">
+                                <rect key="frame" x="163" y="141" width="49" height="30"/>
+                                <state key="normal" title="Submit"/>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Cat-clip-art-images-illustrations-photos-3.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="kuT-ga-NuM">
+                                <rect key="frame" x="91" y="452" width="193" height="163"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
@@ -42,4 +46,7 @@
             <point key="canvasLocation" x="256.5" y="460.5"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Cat-clip-art-images-illustrations-photos-3.jpg" width="340" height="327"/>
+    </resources>
 </document>
